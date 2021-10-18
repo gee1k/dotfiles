@@ -93,7 +93,6 @@ else
   mas 'Tampermonkey', id: 1482490089
   mas 'Octotree', id: 1457450145
   mas 'JSONPeep', id: 1458969831
-  mas 'Xcode', id: 497799835
   mas 'WeChat', id: 836_500_024
   mas 'CotEditor', id: 1024640650
   mas 'uBlacklist for Safari', id: 1547912640
