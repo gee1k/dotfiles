@@ -90,7 +90,7 @@ else
   mas 'Microsoft Word', id: 462054704
   mas 'Microsoft Excel', id: 462058435
   mas 'Microsoft PowerPoint', id: 462062816
-  mas 'Tampermonkey', id: 1482490089
+  # mas 'Tampermonkey', id: 1482490089
   mas 'Octotree', id: 1457450145
   mas 'JSONPeep', id: 1458969831
   mas 'WeChat', id: 836_500_024
