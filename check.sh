@@ -4,7 +4,7 @@ shellcheck bootstrap
 shellcheck test
 shellcheck apps
 
-declare -a apps=("git" "ruby" "go" "fzf" "iTerm2" "SpaceVim" "containers")
+declare -a apps=("git" "ruby" "go" "fzf" "SpaceVim" "iTerm2" "containers" "sdkman")
 for app in "${apps[@]}"; do
     shellcheck "./$app/init"
     if [[ -f "./$app/test" ]]; then
