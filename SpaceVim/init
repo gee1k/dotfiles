@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Setup SpaceVim"
+sh -c "$(curl -sLf https://spacevim.org/install.sh)"

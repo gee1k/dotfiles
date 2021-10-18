@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cp ./iTerm2/profile.json ~/Library/Application Support/iTerm2/DynamicProfiles/

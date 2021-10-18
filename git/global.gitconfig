@@ -1,0 +1,18 @@
+[user]
+	name = Svend
+	email = svend.jin@gmail.com
+[core]
+	ignorecase = false
+[color]
+	ui = true
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[alias]
+	bd = "! git branch -D $(git branch | fzf -m)"
+	sf = "! git switch $(git branch | fzf)"
+	sc = "switch -c"
+	sm = "! git switch main || git switch master"
+[includeIf "gitdir:~/work/"]
+	path = ~/work/.gitconfig

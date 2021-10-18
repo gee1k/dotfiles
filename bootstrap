@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "Install Homebrew"
+if test ! "$(which brew)"; then
+    echo "Installing homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+echo "Setup hostname"
+sudo scutil --set HostName svend-macbook
+
+echo "Install with Brew Bundle"
+set +e
+export PATH=$PATH:/opt/homebrew/bin
+brew bundle
+set -e
+
+echo "Setup workspace"
+mkdir -p ~/Develop/Workspace
+mkdir -p ~/Develop/Soft
+
+echo "Setup CloudDrive"
+mkdir -p ~/Drive/OneDrive
+
+./zsh/init
