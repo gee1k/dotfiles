@@ -3,6 +3,7 @@
 	email = svend.jin@gmail.com
 [core]
 	ignorecase = false
+	editor = vim
 [color]
 	ui = true
 [pull]

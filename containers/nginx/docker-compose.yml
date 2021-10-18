@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  nginx:
+    restart: always
+    image: nginx
+    container_name: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./conf/conf.d:/etc/nginx/conf.d:ro
+      - ./wwwroot:/usr/share/nginx/html:ro
+      - ~/Develop/Workspace:/usr/share/nginx/Workspace:ro

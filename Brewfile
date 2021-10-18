@@ -4,12 +4,12 @@ tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask-drivers'
+tap "bigwig-club/brew"
 
 # primitives
 brew 'git'
 brew 'zsh'
 brew 'romkatv/powerlevel10k/powerlevel10k'
-brew 'zsh-completions'
 brew 'fzf'
 
 # [brew] dev
@@ -24,25 +24,20 @@ else
   # [brew] dev
   brew 'gh'
   brew 'git-flow'
+  brew 'vim'
   brew 'nvm'
 
   # [brew] productivity
   brew 'wget'
-  brew 'p7zip'
   brew 'mas'
   brew 'bat'
   brew 'exa'
   brew 'ripgrep'
   brew 'fd'
   brew 'zoxide'
-  #brew 'choose-rust'
-  # brew 'htop'
-  # brew 'procs'
-  # brew 'neofetch'
-  # brew 'onefetch'
   brew 'tokei'
-  # brew 'curlie'
   brew 'glow'
+  cask 'keka'
 
   # [brew] tools
   brew "commitizen"
@@ -83,16 +78,15 @@ else
   cask 'typora'
   cask 'appcleaner'
   cask 'account-switcher'
-  cask 'keka'
   cask 'openinterminal'
   cask 'logitech-options'
   cask 'motrix'
   cask 'setapp'
 
   # mas app
-  mas 'Pages', id: 409_201_541
-  mas 'Numbers', id: 409_203_825
-  mas 'Keynote', id: 409_183_694
+  mas 'Pages', id: 409201541
+  mas 'Numbers', id: 409203825
+  mas 'Keynote', id: 409183694
   mas 'Microsoft Word', id: 462054704
   mas 'Microsoft Excel', id: 462058435
   mas 'Microsoft PowerPoint', id: 462062816
@@ -104,4 +98,5 @@ else
   mas 'CotEditor', id: 1024640650
   mas 'uBlacklist for Safari', id: 1547912640
   mas 'Magnet', id: 441258766
+  mas 'Sequel Ace', id: 1518036000
 end

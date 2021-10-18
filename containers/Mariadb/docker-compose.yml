@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  nginx:
+    image: mariadb
+    container_name: mariadb
+    ports:
+      - 3306:3306
+    environment:
+        TIME_ZONE: Asia/Shanghai
+        MYSQL_ROOT_PASSWORD: svend!
+    volumes:
+      - ./data:/var/lib/mysql

@@ -22,6 +22,6 @@ mkdir -p ~/Develop/Workspace
 mkdir -p ~/Develop/Soft
 
 echo "Setup CloudDrive"
-mkdir -p ~/Drive/OneDrive
+mkdir -p ~/OneDrive
 
 ./zsh/init

@@ -35,6 +35,14 @@ $ ./apps
 
 ## macOS Setups
 
+### Trackpad
+
+- [ ] Tap to click
+
+### Dock
+
+- [ ] Change to the size you like
+- [ ] Cancel: Show recent application in Dock
 ### bash
 
 - [x] Setup shell login promtp with `motd`: ASCII art is generated with <http://patorjk.com/software/taag/>

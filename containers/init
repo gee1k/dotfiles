@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "Setup Docker containers"
+cp -r ./containers ~/Develop/Soft/
+rm ~/Develop/Soft/init
