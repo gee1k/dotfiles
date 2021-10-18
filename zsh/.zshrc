@@ -44,7 +44,7 @@ export UPDATE_ZSH_DAYS=30
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(git gh git-flow brew fd fzf docker osx nvm npm npx node mvn)
+plugins=(git gh git-flow brew fd fzf docker osx nvm npm node mvn)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh
@@ -78,6 +78,9 @@ eval "$(zoxide init zsh)"
 
 # bat
 export BAT_THEME=Nord
+
+# sdkman
+source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # zinit
 source ~/.zinit/bin/zinit.zsh

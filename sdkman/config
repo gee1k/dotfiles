@@ -1,0 +1,34 @@
+
+# make sdkman non-interactive, preferred for CI environments
+sdkman_auto_answer=true
+
+# check for newer versions and prompt for update
+sdkman_selfupdate_enable=true
+
+# disables SSL certificate verification
+# https://github.com/sdkman/sdkman-cli/issues/327
+# HERE BE DRAGONS....
+sdkman_insecure_ssl=false
+
+# configure curl timeouts
+sdkman_curl_connect_timeout=5
+sdkman_curl_continue=true
+sdkman_curl_max_time=10
+
+# subscribe to the beta channel
+sdkman_beta_channel=false
+
+# enable verbose debugging
+sdkman_debug_mode=false
+
+# enable colour mode
+sdkman_colour_enable=true
+
+# enable automatic env
+sdkman_auto_env=true
+
+# enable rosetta2 compatibility for apple silicon
+sdkman_rosetta2_compatible=false
+
+# enable bash or zsh auto-completion
+sdkman_auto_complete=true
