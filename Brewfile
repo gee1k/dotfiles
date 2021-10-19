@@ -41,7 +41,6 @@ else
 
   # [brew] tools
   brew "commitizen"
-  brew 'vercel-cli'
 
   # [font] for code editor
   cask 'font-menlo-for-powerline'
