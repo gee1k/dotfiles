@@ -81,6 +81,7 @@ else
   cask 'openinterminal'
   cask 'logitech-options'
   cask 'motrix'
+  cask 'tencent-meeting'
 
   # mas app
   mas 'Pages', id: 409201541
