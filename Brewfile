@@ -75,7 +75,6 @@ else
   # [cask] tools
   cask 'utools'
   cask 'typora'
-  cask 'appcleaner'
   cask 'account-switcher'
   cask 'openinterminal'
   cask 'logitech-options'
