@@ -6,7 +6,7 @@ defaults write com.apple.dock springboard-rows -int 7
 defaults write com.apple.dock springboard-columns -int 10
 
 # Dock
-defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock tilesize -int 40
 defaults write com.apple.dock show-process-indicators -bool true
 defaults write com.apple.dock minimize-to-application -bool true
 defaults write com.apple.dock show-recents -bool false
