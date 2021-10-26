@@ -63,7 +63,6 @@ else
   # [cask] productivity
   cask '1password'
   cask 'google-chrome'
-  cask 'hiddenbar'
   cask 'snipaste'
   cask 'onedrive'
 
@@ -81,7 +80,6 @@ else
   cask 'openinterminal'
   cask 'logitech-options'
   cask 'motrix'
-  cask 'setapp'
 
   # mas app
   mas 'Pages', id: 409201541
