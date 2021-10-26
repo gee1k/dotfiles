@@ -49,6 +49,7 @@ else
 
   # [cask] dev
   cask 'visual-studio-code'
+  cask 'jetbrains-toolbox'
   cask 'iterm2'
   cask 'figma'
   cask 'docker'

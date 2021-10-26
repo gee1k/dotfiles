@@ -1,4 +1,4 @@
-
+#!/usr/bin/env bash
 sudo -v
 
 # Launchpad 图标行列数量更改
