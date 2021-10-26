@@ -73,6 +73,7 @@ else
   cask 'yt-music'
 
   # [cask] tools
+  cask 'bob'
   cask 'utools'
   cask 'typora'
   cask 'account-switcher'
