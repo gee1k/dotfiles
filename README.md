@@ -20,7 +20,6 @@ $ ./apps
 - [x] Setup Hostname `sudo scutil --set HostName svend-macbook`
 - [x] Install softwares and fonts from [Brewfile](https://github.com/gee1k/dotfiles/blob/master/Brewfile) with `brew bundle`. HINT: Login to AppStore at first. Some of the applications from Mac App Store may need purchase.
 - [x] Install `zsh`, `oh-my-zsh` and setup `.zshrc`
-- [x] Setup iTerm2
 - [x] Setup SpaceVim
 
 ### Git
