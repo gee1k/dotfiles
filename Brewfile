@@ -46,6 +46,7 @@ else
   cask 'font-menlo-for-powerline'
   # [font] for web rendering
   cask 'font-fira-code'
+  cask 'font-cascadia-code'
 
   # [cask] dev
   cask 'visual-studio-code'
