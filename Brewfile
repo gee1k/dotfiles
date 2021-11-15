@@ -60,6 +60,7 @@ else
   cask 'mqttx'
   cask 'xcodes'
   cask 'postman'
+  cask 'paw'
 
   # [cask] productivity
   cask '1password'

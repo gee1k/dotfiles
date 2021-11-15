@@ -15,5 +15,3 @@
 	sf = "! git switch $(git branch | fzf)"
 	sc = "switch -c"
 	sm = "! git switch main || git switch master"
-[includeIf "gitdir:~/work/"]
-	path = ~/work/.gitconfig
