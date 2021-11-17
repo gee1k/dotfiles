@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "pnpm"
+curl -fsSL https://get.pnpm.io/install.sh | sh -

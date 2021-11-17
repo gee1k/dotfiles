@@ -25,7 +25,7 @@ else
   brew 'gh'
   brew 'git-flow'
   brew 'vim'
-  brew 'nvm'
+  brew 'fnm'
 
   # [brew] productivity
   brew 'wget'
