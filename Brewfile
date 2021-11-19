@@ -44,9 +44,10 @@ else
 
   # [font] for code editor
   cask 'font-menlo-for-powerline'
+  cask 'font-cascadia-code'
+  cask 'font-operator-mono-lig'
   # [font] for web rendering
   cask 'font-fira-code'
-  cask 'font-cascadia-code'
 
   # [cask] dev
   cask 'visual-studio-code'
