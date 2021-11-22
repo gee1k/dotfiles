@@ -26,6 +26,7 @@ else
   brew 'git-flow'
   brew 'vim'
   brew 'fnm'
+  brew "commitizen"
 
   # [brew] productivity
   brew 'wget'
@@ -40,7 +41,7 @@ else
   cask 'keka'
 
   # [brew] tools
-  brew "commitizen"
+  brew "monitorcontrol"
 
   # [font] for code editor
   cask 'font-menlo-for-powerline'
