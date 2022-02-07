@@ -56,7 +56,6 @@ else
   cask 'iterm2'
   cask 'figma'
   cask 'docker'
-  cask 'flutter'
   cask 'balenaetcher'
   cask 'fork'
   cask 'mqttx'
