@@ -49,6 +49,7 @@ else
   cask 'font-operator-mono-lig'
   # [font] for web rendering
   cask 'font-fira-code'
+  cask 'font-lxgw-wenkai'
 
   # [cask] dev
   cask 'visual-studio-code'
