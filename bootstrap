@@ -17,6 +17,10 @@ export PATH=$PATH:/opt/homebrew/bin
 brew bundle
 set -e
 
+echo "Setup docker-compose as a docker plugin"
+mkdir -p ~/.docker/cli-plugins
+ln -sfn /usr/local/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugins/docker-compose
+
 echo "Setup workspace"
 mkdir -p ~/Develop/Workspace
 mkdir -p ~/Develop/Soft
