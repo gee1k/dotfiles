@@ -27,6 +27,9 @@ else
   brew 'vim'
   brew 'fnm'
   brew "commitizen"
+  brew "colima"
+  brew "docker"
+  brew "docker-compose"
 
   # [brew] productivity
   brew 'wget'
@@ -56,7 +59,6 @@ else
   cask 'jetbrains-toolbox'
   cask 'iterm2'
   cask 'figma'
-  cask 'docker'
   cask 'balenaetcher'
   cask 'fork'
   cask 'mqttx'
