@@ -79,9 +79,6 @@ else
   cask 'yt-music'
 
   # [cask] tools
-  cask 'bob'
-  cask 'utools'
-  cask 'typora'
   cask 'account-switcher'
   cask 'openinterminal'
   cask 'logitech-options'
@@ -103,4 +100,6 @@ else
   mas 'uBlacklist for Safari', id: 1547912640
   mas 'Magnet', id: 441258766
   mas 'Sequel Ace', id: 1518036000
+  mas 'Bob', id: 1630034110
+  mas 'CotEditor',id: 1024640650
 end
