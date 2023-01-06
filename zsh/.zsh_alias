@@ -1,6 +1,0 @@
-alias l='exa'
-alias la='exa -a'
-alias ll='exa -lah'
-alias ls='exa --color=auto'
-alias hf='history | fzf'
-alias bc='bc -q -l'

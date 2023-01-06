@@ -10,7 +10,6 @@ tap "bigwig-club/brew"
 brew 'git'
 brew 'zsh'
 brew 'romkatv/powerlevel10k/powerlevel10k'
-brew 'fzf'
 
 # [brew] dev
 # brew 'ruby@2.7'
@@ -35,12 +34,7 @@ else
   brew 'wget'
   brew 'mas'
   brew 'bat'
-  brew 'exa'
-  brew 'ripgrep'
-  brew 'fd'
-  brew 'zoxide'
   brew 'tokei'
-  brew 'glow'
   cask 'keka'
 
   # [brew] tools
@@ -64,10 +58,10 @@ else
   cask 'mqttx'
   cask 'xcodes'
   cask 'postman'
-  cask 'paw'
+  cask 'rapidapi'
 
   # [cask] productivity
-  cask '1password'
+  cask '1password7'
   cask 'google-chrome'
   cask 'snipaste'
   cask 'onedrive'

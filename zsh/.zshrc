@@ -44,7 +44,7 @@ export UPDATE_ZSH_DAYS=30
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(git gh git-flow brew fd fzf docker macos nvm npm node mvn)
+plugins=(git gh git-flow brew docker macos nvm npm node mvn)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh
@@ -67,9 +67,6 @@ source ~/.zsh_alias
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # zoxide
 eval "$(zoxide init zsh)"

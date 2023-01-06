@@ -8,8 +8,8 @@ cp -p ./sdkman/config ~/.sdkman/etc/
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 echo "Setup JDK"
-sdk install java 11.0.11.hs-adpt
-sdk install java 8.0.292.hs-adpt
+sdk install java 11.0.17-tem
+sdk install java 8.0.352-tem
 
 echo "Setup Maven"
 sdk install maven

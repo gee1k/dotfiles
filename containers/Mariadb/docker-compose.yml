@@ -10,3 +10,4 @@ services:
         MYSQL_ROOT_PASSWORD: svend!
     volumes:
       - ./data:/var/lib/mysql
+    user: mysql
