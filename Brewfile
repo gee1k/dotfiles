@@ -5,6 +5,7 @@ tap 'homebrew/services'
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask-drivers'
 tap "bigwig-club/brew"
+tap "romkatv/powerlevel10k"
 
 # primitives
 brew 'git'
