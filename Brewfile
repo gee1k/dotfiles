@@ -1,6 +1,4 @@
-tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
-tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask-drivers'
@@ -27,9 +25,7 @@ else
   brew 'vim'
   brew 'fnm'
   brew "commitizen"
-  brew "colima"
-  brew "docker"
-  brew "docker-compose"
+  brew "orbstack"
 
   # [brew] productivity
   brew 'wget'
@@ -66,6 +62,7 @@ else
   cask 'google-chrome'
   cask 'snipaste'
   cask 'onedrive'
+  cask 'obsidian'
 
   # [cask] entertainment
   cask 'iina'
