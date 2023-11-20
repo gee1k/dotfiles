@@ -26,6 +26,7 @@ else
   brew 'fnm'
   brew "commitizen"
   brew "orbstack"
+  brew "pnpm"
 
   # [brew] productivity
   brew 'wget'
