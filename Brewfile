@@ -2,7 +2,6 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/services'
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask-drivers'
-tap "bigwig-club/brew"
 tap "romkatv/powerlevel10k"
 
 # primitives
@@ -31,24 +30,21 @@ else
   # [brew] productivity
   brew 'wget'
   brew 'mas'
-  brew 'bat'
-  brew 'tokei'
   cask 'keka'
 
   # [brew] tools
-  brew "monitorcontrol"
 
   # [font] for code editor
   cask 'font-menlo-for-powerline'
   cask 'font-cascadia-code'
   cask 'font-operator-mono-lig'
+
   # [font] for web rendering
   cask 'font-fira-code'
   cask 'font-lxgw-wenkai'
 
   # [cask] dev
   cask 'visual-studio-code'
-  cask 'jetbrains-toolbox'
   cask 'iterm2'
   cask 'figma'
   cask 'balenaetcher'
@@ -56,10 +52,8 @@ else
   cask 'mqttx'
   cask 'xcodes'
   cask 'postman'
-  cask 'rapidapi'
 
   # [cask] productivity
-  cask '1password7'
   cask 'google-chrome'
   cask 'snipaste'
   cask 'onedrive'
@@ -72,9 +66,7 @@ else
   cask 'yt-music'
 
   # [cask] tools
-  cask 'account-switcher'
   cask 'openinterminal'
-  cask 'logitech-options'
   cask 'motrix'
   cask 'tencent-meeting'
 
@@ -92,7 +84,6 @@ else
   mas 'CotEditor', id: 1024640650
   mas 'uBlacklist for Safari', id: 1547912640
   mas 'Magnet', id: 441258766
-  mas 'Sequel Ace', id: 1518036000
   mas 'Bob', id: 1630034110
   mas 'CotEditor',id: 1024640650
 end
