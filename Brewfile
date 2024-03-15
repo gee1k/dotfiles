@@ -78,12 +78,8 @@ else
   mas 'Microsoft Excel', id: 462058435
   mas 'Microsoft PowerPoint', id: 462062816
   # mas 'Tampermonkey', id: 1482490089
-  mas 'Octotree', id: 1457450145
-  mas 'JSONPeep', id: 1458969831
   mas 'WeChat', id: 836_500_024
   mas 'CotEditor', id: 1024640650
-  mas 'uBlacklist for Safari', id: 1547912640
-  mas 'Magnet', id: 441258766
   mas 'Bob', id: 1630034110
   mas 'CotEditor',id: 1024640650
 end
